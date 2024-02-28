@@ -1,0 +1,130 @@
+
+
+html {
+  font-size: 62.5%;
+}
+
+/*--------Base Structure----------*/
+
+.cabeza{
+  background-color: #291714;
+  text-align: center;
+}
+
+.logo{
+  width: 50%;
+  height: 100%;
+}
+
+.menu{
+  background-color: #291714;
+  text-align: center;
+  
+}
+
+.cuerpo{
+  background-color: #ffffff;
+  color:#fff;
+
+  text-align: center;
+  background-image: url(/Images/fondo.png);
+  background-repeat: repeat;
+ 
+}
+
+.leftSide{
+  background-color: #50403d;
+  color:#fff;
+  height: auto;
+  padding-top: 1%;
+  padding-bottom: 1%;
+
+
+}
+
+.leftSideIMG{
+  width: 95%;
+  height: 15%;
+ margin: 2%;
+
+
+}
+
+iframe{
+  width: 40%;
+  height: 40%;
+  float: right;
+  margin-top: auto;
+}
+.large{
+  width: 101%;
+  margin-left:-8px;
+}
+
+.pie{
+  background-color: #291714;
+  color:#fff;
+  padding: 1%; 
+  
+}
+
+
+/*--------NAV BAR----------*/
+.nav{
+  /* Green */
+  color: rgb(255, 255, 255);
+  padding: 3%; 
+  text-align: center;
+  float: right;
+  font-size: 2rem;
+  text-decoration: double;
+  font-family:'Times New Roman', Times, serif;
+  transition-duration: 0.4s;
+  border: none;
+  background-color: transparent;
+
+ 
+}
+
+.nav:hover {
+  background-color: #EFDBBC;
+  color: black;
+  text-align: center;
+}
+
+
+
+
+
+/*--------CUERPO----------*/
+
+.ContenedorPadre{
+  margin: 3%;
+  background-color: white;
+  height: auto;
+ 
+  padding: 2%;
+  border-radius: 0.9%;
+  color: #291714;
+  text-align: left;
+}
+
+.BigLogo{
+  position:absolute;
+  z-index: -1
+ 
+}
+
+p{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+}
+
+li{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+}
+.Tittle{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 10rem;
+}
